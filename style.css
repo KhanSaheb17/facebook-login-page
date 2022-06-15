@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+				margin: 0;
+
+}
+body{
+font-family:Roboto, sans-serif; 
+}
+.branding{
+				height: 50px;
+				width: 100%;
+				background-color: #FFFBE2;
+				color: #3C5995;
+				display: flex;
+				align-items: center;
+				font-size: 13px;
+				
+}
+.branding img{
+				width: auto;
+				height: 70%;
+				padding: 0 10px 0 10px;
+}
+
+.logo{
+  text-align: center;
+}
+.logo img{
+  height:25px;
+  width:auto;
+  margin-top: 40px;
+}
+.login{
+				width:92%;
+				margin: auto;
+			/*background-color: purple;*/
+				height:auto;
+				text-align: center;
+				margin-top: 20px;
+}
+input[type=text], input[type=password]{
+				width: 98.4%;
+				height: 40px;
+			 margin-bottom:8px;
+			 border-radius: 5px;
+			 border: none;
+			 background-color: #F5F6F8;
+			 box-shadow: 0 .4px .0px  0.7px rgba(220,220,220,1);
+}
+input[type=submit]{
+				width: 100%;
+				height: 40px;
+			 margin-top:10px;
+			 border-radius: 5px;
+			 border: none;
+			 background-color:#1878F3 ;
+			 color: white;
+			 font-weight: bolder;
+			 text-shadow: 0 -.95px 0 rgba(0,0,0,.32);
+			 font-size: 15px;
+			 
+}
+input::placeholder{
+				padding-left: 15px;
+}
+.forgot{
+				font-size: 13px;
+				color: #286ECD;
+				margin-top:10px ;
+			/*	background-color: red;*/
+}
+.hr{
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+		/*	background-color: pink;*/
+	  	color: #505050;
+	  	font-size: 13px;
+	  	margin-top: 20px;
+}
+hr{
+				width: 42%;
+				border: none;
+				border-bottom:1.3px solid rgb(210,210,210);
+}				
+input[type=button]{
+				width: 45%;
+				height: 35px;
+			 margin-top:17px;
+			 border-radius: 5px;
+			 border: none;
+			 background-color:#00a400 ;
+			 color: white;
+			 font-weight: bolder;
+			 text-shadow: 0 -.95px 0 rgba(0,0,0,.45);
+			 font-size: 13px;
+			 
+}
+.lang{
+				display: flex;
+				align-content: center;
+				justify-content: space-around;
+			/*	background-color: pink ;*/
+				margin-top: 100px;
+				font-size: 12px;
+				color: #5F6D8A;
+				line-height: 17px;
+}
+.en{
+				color: #90949D;
+				font-weight: bold;
+				
+}
+
+.plus{
+				border: 1px solid ;
+				border-radius: 3px;
+				padding: 1px 5px 1px 5px;
+				font-size: 14px;
+				color: #767676;
+}
+ .meta{
+				font-size: 11.5px;
+				color: #767676;
+				margin-top: 15px;
+}
